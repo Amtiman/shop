@@ -1,0 +1,118 @@
+/* admin-styles.css - Custom styles for Admin Product CRUD */
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(212, 175, 55, 0.3);
+    border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(212, 175, 55, 0.5);
+}
+
+/* Luxury Theme Colors - Add to your Tailwind config */
+/*
+  colors: {
+    'luxury-dark': '#0a0e14',
+    'luxury-gold': '#d4af37',
+  }
+*/
+
+/* Tailwind Config Extension - tailwind.config.js */
+/*
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'luxury-dark': '#0a0e14',
+        'luxury-gold': '#d4af37',
+      },
+      fontFamily: {
+        serif: ['Playfair Display', 'Georgia', 'serif'],
+      },
+    },
+  },
+}
+*/
+
+/* Global body scrollbar (optional) */
+body.admin-open {
+    overflow: hidden;
+}
+
+/* Animation keyframes for loading states */
+@keyframes pulse-gold {
+    0%, 100% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.animate-pulse-gold {
+    animation: pulse-gold 2s ease-in-out infinite;
+}
+
+/* Dropdown options styling */
+select option {
+    background-color: #1a2030;
+    color: #fff;
+    padding: 12px;
+}
+
+select option:hover {
+    background-color: rgba(212, 175, 55, 0.2);
+}
+
+/* Input number spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    opacity: 0.3;
+}
+
+input[type="number"]:hover::-webkit-inner-spin-button,
+input[type="number"]:hover::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+/* Focus ring for accessibility */
+.focus-ring:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.3);
+}
+
+/* Transition utilities */
+.transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Grid responsive adjustments */
+@media (max-width: 640px) {
+    .admin-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Sidebar responsive */
+@media (max-width: 768px) {
+    .admin-sidebar {
+        position: fixed;
+        z-index: 50;
+        transform: translateX(-100%);
+    }
+    
+    .admin-sidebar.open {
+        transform: translateX(0);
+    }
+}
