@@ -543,7 +543,6 @@ const ProductForm = ({
                                     )}
                                 </div>
                             </div>
-                        )}
                     </div>
                 </div>
 
