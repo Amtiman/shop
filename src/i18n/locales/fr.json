@@ -13,6 +13,23 @@
     "subtitle2": "Pour votre style de vie",
     "cta": "Voir la Collection"
   },
+  "features": {
+    "title": "Collections Soignées",
+    "subtitle": "Découvrez notre sélection de pièces finest, chacune racontant sa propre histoire d'artisanat et de luxe.",
+    "exclusive": {
+      "title": "Pièces Exclusives",
+      "description": "Éditions limitées disponibles uniquement pour notre clientèle distinguée."
+    },
+    "timeless": {
+      "title": "Design Intemporel",
+      "description": "Silhouettes classiques qui transcendent les saisons et les tendances."
+    },
+    "crafted": {
+      "title": "Expertise Artisanale",
+      "description": "Attention méticuleuse aux détails dans chaque point."
+    },
+    "discover": "Découvrir"
+  },
   "cart": {
     "title": "Votre Panier",
     "empty": "Votre panier est vide.",

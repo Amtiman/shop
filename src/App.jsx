@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Features from './components/Features';
 import ProductCard from './components/ProductCard';
 import CartSidebar from './components/CartSidebar';
 import CheckoutForm from './components/CheckoutForm';
@@ -213,7 +214,9 @@ if (error && products.length === 0) {
 
       <Hero />
 
-      <main id="products" className="container mx-auto px-6 py-20">
+      <Features />
+
+      <main id="products" className="container mx-auto px-6 md:px-12 py-20">
         <CategoryHeader 
           categoryFilter={categoryFilter}
           setCategoryFilter={setCategoryFilter}

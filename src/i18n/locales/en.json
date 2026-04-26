@@ -13,6 +13,23 @@
     "subtitle2": "For Your Lifestyle",
     "cta": "Explore Collection"
   },
+  "features": {
+    "title": "Curated Collections",
+    "subtitle": "Discover our handpicked selection of finest pieces, each telling its own story of craftsmanship and luxury.",
+    "exclusive": {
+      "title": "Exclusive Pieces",
+      "description": "Limited edition items available only to our distinguished clientele."
+    },
+    "timeless": {
+      "title": "Timeless Design",
+      "description": "Classic silhouettes that transcend seasons and trends."
+    },
+    "crafted": {
+      "title": "Expertly Crafted",
+      "description": "Meticulous attention to detail in every stitch."
+    },
+    "discover": "Discover"
+  },
   "cart": {
     "title": "Your Bag",
     "empty": "Your shopping bag is empty.",
@@ -53,9 +70,9 @@
     "shipping": "Shipping & Returns",
     "sizeGuide": "Size Guide",
     "privacy": "Privacy Policy",
-    "address": "N'djari acote de SNE, N'djamena, Tchad",
+    "address": "N'djari a coté de SNE de 8e Arrondissement, N'djamena-Tchad",
     "phone": "+235 66257580",
-    "email": "alafdal.group@gmail.com",
+    "email": "[EMAIL_ADDRESS]",
     "rights": "All rights reserved.",
     "copyright": "2026 ELEGANCE"
   },
@@ -135,7 +152,7 @@
     "initialBalance": "Initial Balance",
     "balanceNote": "Current available stock",
     "pricePreview": "Price Preview",
-"inheritedNameNote": "Name is inherited from selected item. To change, create a new item instead.",
+    "inheritedNameNote": "Name is inherited from selected item. To change, create a new item instead.",
     "search": "Search products...",
     "allCategories": "All Categories",
     "inStock": "In Stock",
